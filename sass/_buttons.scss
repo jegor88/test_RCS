@@ -1,0 +1,65 @@
+
+/*-----------------------------------------------*/
+/* Product adding button & delete button overall */
+/*-----------------------------------------------*/
+
+.btn_add,
+.btn_delete,
+.btn_del_db{
+    padding: 0.5rem;
+    margin: 2rem 0.5rem;
+    color: $color-text-1;
+    display: inline-block;
+    cursor: pointer;
+    width: 13rem;
+    
+}
+
+/*-----------------------*/
+/* Product adding button */
+/*-----------------------*/
+
+.btn_add {
+    border: $border-size-normal solid $color-light-2;
+    border-radius: 0.3rem;
+    font-size: $font-size-normal;
+    
+    &:hover {
+        border: $border-size-normal solid $color-light-3;
+        background: $color-u-1;
+        color: $color-black;
+        transition: all .5s;
+    }
+}
+
+/*-------------------------*/
+/* Product deleting button */
+/*-------------------------*/
+
+
+.btn_del_db {
+    background: #fff;
+}
+
+.btn_delete,
+.btn_del_db {
+    border: $border-size-normal solid $color-light-4;
+    border-radius: 0.3rem;
+    font-size: $font-size-normal;
+    
+    &:hover {
+        border: $border-size-normal solid $color-light-5;
+        background:  $color-u-2;
+        color: $color-black;
+        transition: all .5s;
+    }
+}
+
+/*----------------------------------------------------------*/
+/* Product saving and deleting buttons on "addProduct page" */
+/*----------------------------------------------------------*/
+
+.btn-group
+{
+    margin: 1rem auto 3rem;
+}

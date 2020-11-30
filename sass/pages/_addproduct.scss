@@ -1,0 +1,48 @@
+/*-------------------------------------*/
+/* Add product form & button text size */
+/*-------------------------------------*/
+
+.main {
+    margin: 7rem auto;
+    border: $border-size-normal solid $color-light-1;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+    min-width: 40rem;
+}
+
+.input-field,
+.form-group {
+    font-size: $font-size-normal !important; 
+}
+
+/*---------*/
+/* Coments */
+/*---------*/
+
+.help-block {
+    color: $color-light-1;
+    font-size: $font-size-normal;
+    margin-top: 0.5rem
+    
+}
+
+.error {
+    
+    display: block;
+    color: $color-light-5;
+    margin-bottom: 0.5rem;
+}
+
+
+/*---------------*/
+/* Type Switcher */
+/*---------------*/
+
+#switcher {
+    color: #838282;
+    font-size: $font-size-normal;
+}
+
+
+
+

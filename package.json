@@ -1,0 +1,15 @@
+{
+  "name": "scandi",
+  "version": "1.0.0",
+  "description": "test page",
+  "main": "deleteBtn.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Igors Berezanskis",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

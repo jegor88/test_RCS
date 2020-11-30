@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 3rem;
+}
+
+/*--------*/
+/* Header */
+/*--------*/
+
+.navbar {
+    border-bottom: $border-size-normal solid $color-light-1;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.navbar-header {
+    margin: 0 auto;
+}
+
+/*------*/
+/* Logo */
+/*------*/
+
+.img_logo {
+    opacity: 0.35;
+    width: 30rem;
+    height: auto;
+}

@@ -1,0 +1,90 @@
+/*-----------*/
+/* Main page */
+/*-----------*/
+
+.content {
+    max-width: 130rem;
+    margin: 5rem auto;
+}
+
+/*-----------------------------*/
+/* DVD container and DVD units */
+/*-----------------------------*/
+
+.dvd {
+    font-size: $font-size-normal;
+    
+    &_unit {  
+        background: $color-u-1; 
+        
+        &_info {
+            margin: 2rem auto;
+            padding: 1rem;
+            border: $border-size-normal solid $color-light-1;  
+        }
+    }
+}
+
+/*------------------------------*/
+/* Book container and DVD units */
+/*------------------------------*/
+
+.books {
+    font-size: $font-size-normal;
+    
+    &_unit {
+        background: $color-u-2;
+        
+        &_info {
+            margin: 2rem auto;
+            padding: 1rem;
+            border: $border-size-normal solid $color-light-1;
+        }
+    }
+}
+
+/*-------------------------------*/
+/* Table container and DVD units */
+/*-------------------------------*/
+
+.tables {
+    font-size: $font-size-normal;
+    
+    &_unit {
+        background: $color-u-3;
+        
+        &_info {
+            margin: 2rem auto;
+            padding: 1rem;
+            border: $border-size-normal solid $color-light-1;
+        }
+    }  
+}
+
+/*-----------------------------*/
+/* DVD, Books & Tables overall */
+/*-----------------------------*/
+
+
+.dvd_unit,
+.books_unit,
+.tables_unit {
+    display: inline-block;
+    margin: 2rem auto;
+    text-align: center;
+    border: $border-size-normal solid $color-light-1;
+    border-radius: 0.3rem;
+    min-width: 30rem;
+}
+
+/*-----------------------*/
+/* Checkbox for deleting */
+/*-----------------------*/
+
+.checkbox {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+
+
